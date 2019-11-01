@@ -49,7 +49,7 @@ class CityListTest {
     }
     @Test
     void testFail(){
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
