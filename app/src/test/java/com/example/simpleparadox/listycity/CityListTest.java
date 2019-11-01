@@ -47,6 +47,10 @@ class CityListTest {
 
         assertTrue(cityList.hasCity(mockCity()));
     }
+    @Test
+    void testFail(){
+        assertTrue(false);
+    }
 
     @Test
     void testGetCities() {
